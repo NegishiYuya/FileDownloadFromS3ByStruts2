@@ -7,7 +7,9 @@
     <title>Struts2でS3からファイルダウンロード</title>
   </head>
   <body>
-    <h2>Download file - <a href="download?id=1">1</a></h2>
-    <h2>Download file - <a href="download?id=2">2</a></h2>
+    <h2>S3からダウンロード <a href="download?id=1">1</a></h2>
+    <h2>S3から署名付きURLを使ってダウンロード <a href="downloadFromUrl?id=1">1</a></h2>
+    <h2>S3からダウンロード <a href="download?id=2">2</a></h2>
+    <h2>S3から署名付きURLを使ってダウンロード <a href="downloadFromUrl?id=2">2</a></h2>
   </body>
 </html>
